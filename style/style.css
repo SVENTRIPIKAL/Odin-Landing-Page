@@ -1,11 +1,3 @@
-div.container {
-    height: 200px;
-    width: auto;
-    border: 1px solid red;
-}
-
-
-
 div.logo-links-container {
     justify-content: space-between;
     padding-inline: 100px;
@@ -24,6 +16,42 @@ ul.header-links {
 
 
 
+div.button-image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+    padding-block: 75px;
+}
+
+div.text-button-container {
+    display: flex;
+    flex-direction: column;
+    margin-inline-end: 50px;
+    gap: 10px;
+}
+
+div.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button.button-1 {
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+img.nasa-photo {
+    width: 1200px;
+    height: 300px;
+}
+
+
+
 #header,
 #footer {
     background-color: #1F2937;
@@ -31,6 +59,11 @@ ul.header-links {
 
 #quote {
     background-color: #E5E7EB;
+}
+
+#hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 
@@ -58,7 +91,11 @@ ul {
     list-style: none;
 }
 
-li {
-    font-size: 18px;
-    color: #E5E7EB;
-}
+
+
+/* ATTRIBUTIONS:
+
+NASA-PHOTO:
+Photo by <a href="https://unsplash.com/@nasa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NASA</a> on <a href="https://unsplash.com/photos/photo-of-outer-space-Q1p7bh3SHj8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+ */
