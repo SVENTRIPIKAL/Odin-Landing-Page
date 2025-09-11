@@ -1,23 +1,22 @@
-div.logo-links-container {
+/* HEADER SECTION */
+#header .logo-links-container {
     justify-content: space-between;
     padding-inline: 100px;
     gap: 30px
 }
 
-div.header-logo {
+#header .logo-text {
     align-items: center;
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
 }
 
-ul.header-links {
+#header .list-links {
     gap: 20px;
 }
 
-
-
-div.button-image-container {
+#header .button-image-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -26,20 +25,20 @@ div.button-image-container {
     padding-inline: 100px;
 }
 
-div.text-button-container {
+#header .text-button-container {
     display: flex;
     flex-direction: column;
     gap: 10px;
     width: 600px;
 }
 
-div.hero-main {
+#header .main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
 }
 
-button.header-button {
+#header .signup-button {
     width: 100px;
     height: 35px;
     background-color: #3882f6;
@@ -48,13 +47,13 @@ button.header-button {
     border-radius: 7px;
 }
 
-img.nasa-photo {
+#header .nasa-photo {
     width: 600px;
     height: 300px;
     border-radius: 20px;
 }
 
-#header-attribution {
+#header .photo-attribution {
     text-align: end;
     padding-right: 100px;
     padding-bottom: 100px;
@@ -62,28 +61,7 @@ img.nasa-photo {
 
 
 
-#header,
-#footer {
-    background-color: #1F2937;
-}
-
-#quote {
-    background-color: #E5E7EB;
-}
-
-#hero-secondary {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-
-
-body,
-div.logo-links-container,
-div.header-logo,
-ul.header-links {
-    display: flex;
-}
+/* INFO SECTION */
 
 
 
@@ -99,4 +77,25 @@ body {
 ul {
     padding: 0;
     list-style: none;
+}
+
+body,
+#header .logo-links-container,
+#header .logo-text,
+#header .list-links {
+    display: flex;
+}
+
+#header,
+#footer {
+    background-color: #1F2937;
+}
+
+#quote {
+    background-color: #E5E7EB;
+}
+
+#secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
