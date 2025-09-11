@@ -1,6 +1,7 @@
 div.logo-links-container {
     justify-content: space-between;
     padding-inline: 100px;
+    gap: 30px
 }
 
 div.header-logo {
