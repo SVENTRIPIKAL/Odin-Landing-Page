@@ -38,13 +38,13 @@ div.hero-main {
     font-weight: 900;
 }
 
-button.button-1 {
+button.header-button {
     width: 100px;
     height: 35px;
     background-color: #3882f6;
     color: #E5E7EB;
     font-weight: bold;
-    border-radius: 8px;
+    border-radius: 7px;
 }
 
 img.nasa-photo {
