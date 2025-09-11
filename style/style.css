@@ -17,7 +17,6 @@
 }
 
 #header .button-image-container {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 30px;
@@ -26,7 +25,6 @@
 }
 
 #header .text-button-container {
-    display: flex;
     flex-direction: column;
     gap: 10px;
     width: 600px;
@@ -83,7 +81,6 @@
 }
 
 #info .box-and-text {
-    display: flex;
     flex-direction: column;
     align-items: center;
     width: 170px;
@@ -98,6 +95,30 @@
 
 #info .box-text {
     text-align: center;
+}
+
+
+
+/* QUOTE SECTION */
+#quote {
+    flex-direction: column;
+    padding-inline: 175px;
+    padding-block: 100px;
+}
+
+#quote .inspirational-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+#quote .text-reference {
+    text-align: end;
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    padding-right: 50px;
 }
 
 
@@ -120,7 +141,11 @@ body,
 #header .logo-links-container,
 #header .logo-text,
 #header .list-links,
-#info .boxes-container {
+#header .button-image-container,
+#header .text-button-container,
+#info .boxes-container,
+#info .box-and-text,
+#quote {
     display: flex;
 }
 
