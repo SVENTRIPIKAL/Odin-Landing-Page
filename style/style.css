@@ -40,15 +40,17 @@ div.hero-main {
 
 button.button-1 {
     width: 100px;
-    height: 30px;
+    height: 35px;
     background-color: #3882f6;
     color: #E5E7EB;
     font-weight: bold;
+    border-radius: 8px;
 }
 
 img.nasa-photo {
     width: 600px;
     height: 300px;
+    border-radius: 20px;
 }
 
 
