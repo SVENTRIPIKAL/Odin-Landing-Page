@@ -54,9 +54,15 @@
 }
 
 #header .photo-attribution {
+    color: #E5E7EB;
     text-align: end;
     padding-right: 100px;
     padding-bottom: 100px;
+}
+
+#header .attr-link {
+    color: #3882f6;
+    text-decoration: none;
 }
 
 
