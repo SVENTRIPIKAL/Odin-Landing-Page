@@ -82,11 +82,22 @@
     justify-content: center;
 }
 
+#info .box-and-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+}
+
 #info .box-border {
     width: 180px;
     height: 200px;
     border-radius: 20px;
     border: 5px solid #3882f6;
+}
+
+#info .box-text {
+    text-align: center;
 }
 
 
