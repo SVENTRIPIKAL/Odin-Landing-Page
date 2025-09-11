@@ -18,17 +18,17 @@ ul.header-links {
 
 div.button-image-container {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-inline: 100px;
-    padding-block: 75px;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 100px;
 }
 
 div.text-button-container {
     display: flex;
     flex-direction: column;
-    margin-inline-end: 50px;
     gap: 10px;
+    width: 600px;
 }
 
 div.hero-main {
@@ -46,7 +46,7 @@ button.button-1 {
 }
 
 img.nasa-photo {
-    width: 1200px;
+    width: 600px;
     height: 300px;
 }
 
