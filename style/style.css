@@ -22,7 +22,8 @@ div.button-image-container {
     align-items: center;
     justify-content: space-between;
     gap: 30px;
-    padding: 100px;
+    padding-top: 100px;
+    padding-inline: 100px;
 }
 
 div.text-button-container {
@@ -51,6 +52,12 @@ img.nasa-photo {
     width: 600px;
     height: 300px;
     border-radius: 20px;
+}
+
+#header-attribution {
+    text-align: end;
+    padding-right: 100px;
+    padding-bottom: 100px;
 }
 
 
@@ -93,12 +100,3 @@ ul {
     padding: 0;
     list-style: none;
 }
-
-
-
-/* ATTRIBUTIONS:
-
-NASA-PHOTO:
-Photo by <a href="https://unsplash.com/@nasa?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">NASA</a> on <a href="https://unsplash.com/photos/photo-of-outer-space-Q1p7bh3SHj8?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-
- */
