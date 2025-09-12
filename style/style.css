@@ -127,11 +127,11 @@
 
 #signup .cta-box {
     display: flex;
+    width: 1130px;
     border-radius: 10px;
     justify-content: center;
     gap: 150px;
     padding-block: 80px;
-    padding-inline: 100px;
     background-color: #3882f6;
 }
 
