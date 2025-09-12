@@ -104,8 +104,8 @@
 /* QUOTE SECTION */
 #quote {
     flex-direction: column;
-    padding-inline: 175px;
-    padding-block: 100px;
+    align-items: center;
+    padding-block: 120px;
 }
 
 #quote .inspirational-text {
@@ -113,6 +113,7 @@
     font-weight: 300;
     color: #1F2937;
     font-style: italic;
+    width: 820px;
 }
 
 #quote .text-reference {
@@ -120,7 +121,8 @@
     color: #1F2937;
     font-weight: bold;
     font-size: 24px;
-    padding-inline-end: 50px;
+    padding-inline-end: 80px;
+    width: 820px;
 }
 
 
