@@ -40,12 +40,11 @@
 }
 
 #header .signup-button {
-    width: 100px;
-    height: 35px;
+    width: 130px;
     background-color: #3882f6;
-    color: #E5E7EB;
     font-weight: bold;
     border-radius: 7px;
+    padding-block: 5px;
 }
 
 #header .nasa-photo {
