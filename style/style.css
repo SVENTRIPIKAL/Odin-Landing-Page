@@ -39,14 +39,6 @@
     font-weight: 900;
 }
 
-#header .signup-button {
-    width: 130px;
-    background-color: #3882f6;
-    font-weight: bold;
-    border-radius: 10px;
-    padding-block: 10px;
-}
-
 #header .nasa-photo {
     width: 600px;
     height: 300px;
@@ -128,7 +120,20 @@
 
 
 /* SIGNUP SECTION */
+#signup {
+    justify-content: center;
+    padding-block: 120px;
+}
 
+#signup .cta-box {
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    gap: 150px;
+    padding-block: 80px;
+    padding-inline: 100px;
+    background-color: #3882f6;
+}
 
 
 
@@ -155,8 +160,18 @@ body,
 #header .text-button-container,
 #info .boxes-container,
 #info .box-and-text,
-#quote {
+#quote,
+#signup {
     display: flex;
+}
+
+#header button,
+#signup button {
+    width: 130px;
+    background-color: #3882f6;
+    font-weight: bold;
+    border-radius: 10px;
+    padding-block: 10px;
 }
 
 #header,
