@@ -133,10 +133,22 @@
     gap: 150px;
     padding-block: 80px;
     background-color: #3882f6;
+    align-items: flex-end;
+}
+
+#signup .main-text {
+    color: #E5E7EB;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#signup button {
+    height: 50px;
 }
 
 
 
+/* ADDITIONAL */
 * {
     font-family: Roboto, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
