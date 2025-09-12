@@ -73,12 +73,12 @@
     font-weight: 900;
     color: #1F2937;
     text-align: center;
-    padding: 50px;
+    padding-block: 60px;
 }
 
 #info .boxes-container {
     gap: 70px;
-    padding-block-end: 100px;
+    padding-block-end: 120px;
     justify-content: center;
 }
 
