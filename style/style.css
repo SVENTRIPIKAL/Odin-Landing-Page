@@ -43,8 +43,8 @@
     width: 130px;
     background-color: #3882f6;
     font-weight: bold;
-    border-radius: 7px;
-    padding-block: 5px;
+    border-radius: 10px;
+    padding-block: 10px;
 }
 
 #header .nasa-photo {
