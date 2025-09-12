@@ -1,8 +1,13 @@
 /* HEADER SECTION */
+#header {
+    flex-direction: column;
+    align-items: center;
+}
+
 #header .logo-links-container {
     justify-content: space-between;
-    padding-inline: 100px;
-    gap: 30px
+    width: 1130px;
+    padding-block-start: 10px;
 }
 
 #header .logo-text {
@@ -18,16 +23,14 @@
 
 #header .button-image-container {
     align-items: center;
-    justify-content: space-between;
     gap: 30px;
-    padding-top: 100px;
-    padding-inline: 100px;
+    padding-block-start: 120px;
 }
 
 #header .text-button-container {
     flex-direction: column;
     gap: 10px;
-    width: 600px;
+    width: 500px;
 }
 
 #header .main-text {
@@ -52,10 +55,10 @@
 }
 
 #header .photo-attribution {
+    width: 1130px;
     color: #E5E7EB;
     text-align: end;
-    padding-right: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 120px;
 }
 
 #header .attr-link {
@@ -143,6 +146,7 @@ ul {
 }
 
 body,
+#header,
 #header .logo-links-container,
 #header .logo-text,
 #header .list-links,
